@@ -1,0 +1,17 @@
+@media only screen and (min-width: 64rem) {
+    #food-images-container{
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    #content-text {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .food-text-element {
+        margin-bottom: 0;
+    }
+}
