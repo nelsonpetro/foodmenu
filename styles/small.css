@@ -18,7 +18,7 @@ body {
 header {
     width: 100%;
     height: 80px;
-    background-color: #DB6046;
+    background-color: #FAB81B;
     color: white;
     display: flex;
     align-items: center;
@@ -27,8 +27,13 @@ header {
     padding: 6px;
 }
 
+.logo {
+    align-content: center;
+}
+
 .logo img {
-    max-width: 140px;
+    display: block;
+    max-width: 60px;
 }
 
 .navbar ul {
@@ -91,13 +96,14 @@ header {
     cursor: pointer;
 }
 
-#content-images {
+.content-images {
     margin: 0 auto;
     max-width: 90vw;
     margin-top: 30px;
 }
 
 .content-title {
+    text-align: center;
     font-size: calc(32px + (60 - 32) * ((100vw - 320px) / (1700 - 320)));
     margin: 0 auto 20px auto;
     max-width: 90vw;
@@ -127,7 +133,7 @@ header {
     width: 100%;
 }
 
-#food-images-container {
+.food-images-container {
     display: flex;
     flex-direction: column;
     gap: 15px 0;
@@ -148,7 +154,7 @@ header {
     border-bottom: 0.05px solid white;
 }
 
-#content-text {
+.content-text {
     margin: 20px auto;
     width: 90vw;
 }
@@ -176,7 +182,7 @@ header {
 
 footer {
     padding: 10px;
-    background-color: #DB6046;
+    background-color: #FAB81B;
     font-family: 'Josefin Sans', sans-serif;
     font-size: calc(16px + (28 - 20) * ((100vw - 320px) / (1700 - 320)));
 }
@@ -193,6 +199,10 @@ footer a, footer p {
 .logo-footer {
     text-align: center;
     padding: 10px;
+}
+
+.logo-footer img {
+    max-width: 80px;
 }
 
 .social {
