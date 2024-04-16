@@ -2,11 +2,12 @@
 
 @font-face {
     font-family: 'Amagro';
-    src:
-        url('fonts/Amagro-bold.woff2'),
-        url('fonts/Amagro-bold.eot'),
-        url('fonts/Amagro-bold.woff'),
-        url('fonts/Amagro-bold.ttf');
+    src: url('fonts/Amagro-bold.eot') format('eot');
+    src: url('fonts/Amagro-bold.woff2') format('woff2'),
+        url('fonts/Amagro-bold.woff') format('woff'),
+        url('fonts/Amagro-bold.ttf') format('truetype');
+    
+    font-weight: normal;
     font-style: normal;
 }
 
