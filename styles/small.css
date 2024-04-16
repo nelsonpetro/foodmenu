@@ -2,7 +2,10 @@
 
 @font-face {
     font-family: 'Amagro';
-    src: url('fonts/Amagro.ttf');
+    src:
+        url('fonts/Amagro.woff2') format('woff2')
+        url('fonts/Amagro.eot') format('eot')  
+        url('fonts/Amagro.ttf') format('truetype');
     font-style: normal;
 }
 
