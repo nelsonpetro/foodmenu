@@ -3,11 +3,10 @@
 @font-face {
     font-family: 'Amagro';
     src:
-        url('fonts/Amagro.woff2'),
-        url('fonts/Amagro.eot'),
-        url('fonts/Amagro.woff'),
-        url('fonts/Amagro.otf'), 
-        url('fonts/Amagro.ttf');
+        url('fonts/Amagro-bold.woff2'),
+        url('fonts/Amagro-bold.eot'),
+        url('fonts/Amagro-bold.woff'),
+        url('fonts/Amagro-bold.ttf');
     font-style: normal;
 }
 
