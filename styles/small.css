@@ -1,15 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/amagro');
 
-@font-face {
-    font-family: 'Amagro';
-    src: url('/fonts/Amagro-bold.eot') format('eot');
-    src: url('/fonts/Amagro-bold.woff2') format('woff2'),
-        url('/fonts/Amagro-bold.woff') format('woff'),
-        url('/fonts/Amagro-bold.ttf') format('truetype');
-    
-    font-weight: normal;
-    font-style: normal;
-}
+
 
 /*body {
   font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));
